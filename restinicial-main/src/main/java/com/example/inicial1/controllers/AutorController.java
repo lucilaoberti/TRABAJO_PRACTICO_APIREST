@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path="api/v1/autor")
 public class AutorController {
     private AutorService autorService;
-
+// Instacia del servicio al controlador 
     public AutorController(AutorService autorService){
         this.autorService= autorService;
     }
